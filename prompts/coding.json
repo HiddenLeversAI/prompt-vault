@@ -1,0 +1,34 @@
+{
+  "prompts": [
+    {
+      "id": 201,
+      "title": "Code Refactoring Assistant",
+      "content": "Refactor the following code to improve:\n- Readability\n- Performance\n- Maintainability\n- Error handling\n\nProvide:\n1. Refactored code\n2. Explanation of changes\n3. Performance implications\n4. Any breaking changes\n\nCode: [PASTE CODE HERE]",
+      "tags": ["refactoring", "optimization", "clean code"]
+    },
+    {
+      "id": 202,
+      "title": "API Endpoint Designer",
+      "content": "Design RESTful API endpoints for [FEATURE/RESOURCE]. Include:\n- HTTP methods\n- Route paths\n- Request/response schemas\n- Status codes\n- Authentication requirements\n- Rate limiting considerations\n- Example requests/responses",
+      "tags": ["api", "rest", "backend"]
+    },
+    {
+      "id": 203,
+      "title": "Unit Test Generator",
+      "content": "Write comprehensive unit tests for [FUNCTION/CLASS]. Include:\n- Happy path tests\n- Edge cases\n- Error scenarios\n- Mock dependencies\n- Test descriptions\n- Setup/teardown if needed\nFramework: [TESTING FRAMEWORK]",
+      "tags": ["testing", "unit tests", "quality"]
+    },
+    {
+      "id": 204,
+      "title": "SQL Query Optimizer",
+      "content": "Optimize this SQL query for better performance:\n[PASTE QUERY]\n\nProvide:\n- Optimized query\n- Explanation of optimizations\n- Index recommendations\n- Potential bottlenecks\n- Execution plan analysis",
+      "tags": ["sql", "database", "optimization"]
+    },
+    {
+      "id": 205,
+      "title": "React Component Builder",
+      "content": "Create a React component for [DESCRIPTION]. Requirements:\n- TypeScript interfaces\n- Proper prop validation\n- Hooks implementation\n- Error boundaries\n- Accessibility features\n- Basic styling (CSS modules/styled-components)\n- Usage example",
+      "tags": ["react", "frontend", "component"]
+    }
+  ]
+}

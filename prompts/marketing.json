@@ -1,0 +1,34 @@
+{
+  "prompts": [
+    {
+      "id": 301,
+      "title": "Landing Page Copy Framework",
+      "content": "Write landing page copy for [PRODUCT/SERVICE]. Include:\n- Headline and subheadline\n- Value proposition\n- 3 key benefits\n- Social proof section\n- FAQ (3-5 questions)\n- CTA buttons text\n- Trust indicators\nTarget audience: [DEMOGRAPHIC]",
+      "tags": ["landing page", "conversion", "copywriting"]
+    },
+    {
+      "id": 302,
+      "title": "Social Media Content Calendar",
+      "content": "Create a 1-week content calendar for [BRAND] on [PLATFORMS]. Include:\n- Daily post themes\n- Content types (video, image, text)\n- Captions (50-100 words each)\n- Hashtag strategies\n- Best posting times\n- Engagement tactics\nBrand voice: [DESCRIPTION]",
+      "tags": ["social media", "planning", "content"]
+    },
+    {
+      "id": 303,
+      "title": "Customer Persona Developer",
+      "content": "Create a detailed customer persona for [PRODUCT/SERVICE]. Include:\n- Demographics\n- Psychographics\n- Pain points (3-5)\n- Goals and motivations\n- Buying behavior\n- Preferred channels\n- Objections to address\n- Messaging that resonates",
+      "tags": ["persona", "targeting", "research"]
+    },
+    {
+      "id": 304,
+      "title": "A/B Test Hypothesis Generator",
+      "content": "Generate 5 A/B test ideas for [WEBSITE/APP ELEMENT]. For each test:\n- Hypothesis statement\n- Control vs. variant description\n- Success metrics\n- Expected impact\n- Implementation complexity\n- Test duration recommendation",
+      "tags": ["testing", "optimization", "conversion"]
+    },
+    {
+      "id": 305,
+      "title": "Brand Voice Guidelines",
+      "content": "Develop brand voice guidelines for [COMPANY]. Include:\n- Voice attributes (3-5)\n- Tone variations by channel\n- Do's and don'ts\n- Example phrases\n- Words to use/avoid\n- Writing samples\nBrand personality: [DESCRIPTION]",
+      "tags": ["branding", "voice", "guidelines"]
+    }
+  ]
+}

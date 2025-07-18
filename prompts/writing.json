@@ -1,0 +1,34 @@
+{
+  "prompts": [
+    {
+      "id": 101,
+      "title": "Blog Post Outline Generator",
+      "content": "Create a detailed outline for a blog post about [TOPIC]. Include:\n- Compelling headline (with 2 alternatives)\n- Introduction hook\n- 5-7 main sections with subpoints\n- Key takeaways\n- Call-to-action\nTarget audience: [AUDIENCE]\nTone: [TONE]",
+      "tags": ["blog", "outline", "planning"]
+    },
+    {
+      "id": 102,
+      "title": "Story Plot Developer",
+      "content": "Develop a compelling plot for a [GENRE] story. Include:\n- Main character with clear motivation\n- Central conflict\n- 3 major plot points\n- Climax and resolution\n- 2 subplot ideas\nSetting: [TIME/PLACE]\nTarget length: [WORD COUNT]",
+      "tags": ["fiction", "storytelling", "creative"]
+    },
+    {
+      "id": 103,
+      "title": "Email Subject Line Optimizer",
+      "content": "Generate 10 email subject lines for [PURPOSE/TOPIC]. Optimize for:\n- Open rates\n- Clarity\n- Urgency (if applicable)\n- A/B testing variations\nInclude character count for each.\nTarget audience: [DEMOGRAPHIC]",
+      "tags": ["email", "subject lines", "optimization"]
+    },
+    {
+      "id": 104,
+      "title": "Product Description Writer",
+      "content": "Write a compelling product description for [PRODUCT]. Include:\n- Key features (bullet points)\n- Benefits to the customer\n- Emotional appeal\n- Technical specifications\n- SEO keywords: [KEYWORDS]\nTone: [professional/casual/luxury]\nWord limit: [NUMBER]",
+      "tags": ["product", "ecommerce", "copywriting"]
+    },
+    {
+      "id": 105,
+      "title": "LinkedIn Post Creator",
+      "content": "Create an engaging LinkedIn post about [TOPIC]. Structure:\n- Attention-grabbing first line\n- Personal story or insight\n- 3 key lessons/tips\n- Question to encourage comments\n- Relevant hashtags (3-5)\nTone: Professional but personable\nLength: 1300 characters max",
+      "tags": ["linkedin", "social media", "professional"]
+    }
+  ]
+}

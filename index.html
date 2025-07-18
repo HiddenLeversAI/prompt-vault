@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Vault - Your AI Prompt Collection</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Prompt Vault</h1>
+            <nav>
+                <a href="#" class="nav-link active" data-category="all">All Prompts</a>
+                <a href="#" class="nav-link" data-category="writing">Writing</a>
+                <a href="#" class="nav-link" data-category="coding">Coding</a>
+                <a href="#" class="nav-link" data-category="marketing">Marketing</a>
+                <a href="#" class="nav-link" data-category="business">Business</a>
+                <a href="pages/about.html">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Search prompts..." class="search-input">
+            <span class="search-hint">Type to search through all prompts</span>
+        </div>
+
+        <div id="promptsContainer" class="prompts-grid">
+            <!-- Prompts will be loaded here dynamically -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Prompt Vault. A simple way to store and find AI prompts.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>

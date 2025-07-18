@@ -1,0 +1,34 @@
+{
+  "prompts": [
+    {
+      "id": 401,
+      "title": "Business Plan Executive Summary",
+      "content": "Write an executive summary for [BUSINESS NAME]. Include:\n- Company overview\n- Problem being solved\n- Solution/products\n- Target market\n- Competitive advantage\n- Financial projections summary\n- Funding requirements\n- Team highlights\nMax length: 2 pages",
+      "tags": ["business plan", "strategy", "executive"]
+    },
+    {
+      "id": 402,
+      "title": "Competitive Analysis Framework",
+      "content": "Conduct a competitive analysis for [YOUR COMPANY] vs [COMPETITORS]. Analyze:\n- Product features comparison\n- Pricing strategies\n- Market positioning\n- Strengths/weaknesses\n- Market share\n- Customer reviews summary\n- Opportunities for differentiation",
+      "tags": ["competition", "analysis", "strategy"]
+    },
+    {
+      "id": 403,
+      "title": "Meeting Agenda Optimizer",
+      "content": "Create an effective meeting agenda for [MEETING PURPOSE]. Include:\n- Objective statement\n- Attendee list with roles\n- Time allocations\n- Discussion topics with owners\n- Decision points\n- Action items section\n- Follow-up plan\nMeeting duration: [TIME]",
+      "tags": ["meetings", "productivity", "planning"]
+    },
+    {
+      "id": 404,
+      "title": "OKR Goal Setting Assistant",
+      "content": "Create OKRs for [DEPARTMENT/TEAM] for [QUARTER]. Include:\n- 3 Objectives\n- 3-4 Key Results per objective\n- Metrics and targets\n- Alignment with company goals\n- Dependencies\n- Risk factors\n- Success criteria",
+      "tags": ["okr", "goals", "planning"]
+    },
+    {
+      "id": 405,
+      "title": "Partnership Proposal Template",
+      "content": "Draft a partnership proposal for [PARTNER COMPANY]. Include:\n- Mutual benefits\n- Proposed collaboration model\n- Revenue/resource sharing\n- Timeline and milestones\n- Success metrics\n- Risk mitigation\n- Next steps\nTone: Professional, win-win focused",
+      "tags": ["partnership", "proposal", "collaboration"]
+    }
+  ]
+}

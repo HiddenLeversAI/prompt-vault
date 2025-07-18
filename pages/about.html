@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Prompt Vault</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+    <style>
+        .about-content {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+        .about-content h2 {
+            color: var(--text-primary);
+            margin: 2rem 0 1rem;
+        }
+        .about-content p {
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+        }
+        .about-content ul {
+            margin: 1rem 0;
+            padding-left: 2rem;
+            color: var(--text-secondary);
+        }
+        .about-content li {
+            margin-bottom: 0.5rem;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Prompt Vault</h1>
+            <nav>
+                <a href="../index.html" class="nav-link">Back to Prompts</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="about-content">
+        <a href="../index.html" class="back-link">← Back to Prompts</a>
+        
+        <h2>About Prompt Vault</h2>
+        <p>
+            Prompt Vault is a simple, clean repository for storing and organizing AI prompts. 
+            Built with simplicity in mind, it helps you quickly find and copy the prompts you need.
+        </p>
+
+        <h2>Features</h2>
+        <ul>
+            <li>Browse prompts by category (Writing, Coding, Marketing, Business)</li>
+            <li>Search through all prompts instantly</li>
+            <li>One-click copy to clipboard</li>
+            <li>Clean, distraction-free interface</li>
+            <li>Works on all devices</li>
+        </ul>
+
+        <h2>How to Use</h2>
+        <p>
+            1. Browse prompts by category or search for specific keywords<br>
+            2. Click "Copy Prompt" to copy any prompt to your clipboard<br>
+            3. Paste into your favorite AI tool (ChatGPT, Claude, etc.)<br>
+            4. Replace the [PLACEHOLDER] text with your specific information
+        </p>
+
+        <h2>Adding Your Own Prompts</h2>
+        <p>
+            To add your own prompts, edit the JSON files in the <code>prompts/</code> directory. 
+            Each category has its own file (writing.json, coding.json, etc.). Follow the existing 
+            format to add new prompts.
+        </p>
+
+        <h2>Open Source</h2>
+        <p>
+            This project is open source and available on GitHub. Feel free to fork, modify, 
+            and use it for your own prompt collection. No attribution required, but always appreciated!
+        </p>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Prompt Vault. A simple way to store and find AI prompts.</p>
+        </div>
+    </footer>
+</body>
+</html>
