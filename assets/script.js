@@ -172,7 +172,6 @@ function createPromptCard(prompt) {
             <div class="prompt-tags">
                 ${prompt.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
             </div>
-            <button class="copy-button" onclick="copyPrompt(${prompt.id})">
             <button class="copy-button" onclick="copyPrompt(event, ${prompt.id})">
                 Copy Prompt
             </button>
