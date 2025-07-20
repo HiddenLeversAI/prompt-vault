@@ -173,6 +173,7 @@ function createPromptCard(prompt) {
                 ${prompt.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
             </div>
             <button class="copy-button" onclick="copyPrompt(${prompt.id})">
+            <button class="copy-button" onclick="copyPrompt(event, ${prompt.id})">
                 Copy Prompt
             </button>
         </div>
@@ -182,7 +183,7 @@ function createPromptCard(prompt) {
 }
 
 // Copy prompt to clipboard
-async function copyPrompt(promptId) {
+async function copyPrompt(event, promptId) {
     const prompt = allPrompts.find(p => p.id === promptId);
     if (!prompt) return;
     
