@@ -13,5 +13,5 @@ Access-Control-Allow-Origin = "*"
 Content-Type = "application/json"
 
 [build]
-publish = "dist"
+publish = "."
 command = "npm run build"
