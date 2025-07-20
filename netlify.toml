@@ -1,0 +1,15 @@
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/json"
+
+[[headers]]
+  for = "/prompts/*.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Type = "application/json"
+
+# Ensure all files are included in deployment
+[build]
+  publish = "."
