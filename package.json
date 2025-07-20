@@ -1,0 +1,12 @@
+{
+  "name": "prompt-vault",
+  "version": "1.0.0",
+  "description": "A simple, clean website for storing and organizing AI prompts",
+  "scripts": {
+    "build": "echo 'No build process needed - this is a static site' && exit 0",
+    "start": "echo 'Open index.html in your browser' && exit 0"
+  },
+  "keywords": ["prompts", "ai", "static-site"],
+  "author": "",
+  "license": "MIT"
+}
