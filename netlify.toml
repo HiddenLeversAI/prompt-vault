@@ -1,15 +1,17 @@
 [[headers]]
-  for = "/*.json"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "application/json"
+for = "/*.json"
+
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/json"
 
 [[headers]]
-  for = "/prompts/*.json"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Type = "application/json"
+for = "/prompts/*.json"
 
-# Ensure all files are included in deployment
+[headers.values]
+Access-Control-Allow-Origin = "*"
+Content-Type = "application/json"
+
 [build]
-  publish = "."
+publish = "dist"
+command = "npm run build"
