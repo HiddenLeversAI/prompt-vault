@@ -6,7 +6,6 @@
     "build": "echo 'No build process needed for static site' && exit 0",
     "start": "node server.js",
     "dev": "node server.js"
-    "start": "echo 'Open index.html in your browser' && exit 0"
   },
   "keywords": ["prompts", "ai", "static-site"],
   "author": "",
